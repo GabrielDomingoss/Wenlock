@@ -6,6 +6,7 @@ import { UserSquareIcon } from "../../assets/userSquareIcon.tsx";
 import { UserIcon } from "../../assets/userIcon.tsx";
 import {
   Collapse,
+  Grid,
   List,
   ListItemButton,
   ListItemIcon,
@@ -104,7 +105,15 @@ export const Sidebar = () => {
       </List>
 
       <div className={styles.copyright}>
-        {expanded ? "© WenLock" : "V 0.0.0"}
+        {expanded ? (
+          <Grid>
+            <Grid>© WenLock</Grid>
+            <Grid>Power by Conecthus</Grid>
+            <Grid>V 0.0.0</Grid>
+          </Grid>
+        ) : (
+          "V 0.0.0"
+        )}
       </div>
     </section>
   );
