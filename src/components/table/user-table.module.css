@@ -1,0 +1,22 @@
+.table {
+  width: 100%;
+}
+
+.tableHead {
+  border-radius: 1.5rem !important;
+}
+
+.headerRow {
+  background-color: #0d1931;
+  margin-bottom: 1rem;
+}
+
+.headerCell {
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.bodyRow {
+  background-color: white;
+  border-radius: 1rem !important;
+}

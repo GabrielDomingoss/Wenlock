@@ -1,0 +1,29 @@
+.userReadTitle {
+  font-weight: bold;
+  font-size: 2.375rem;
+  color: #0d1931;
+}
+
+.userInfo {
+  margin-bottom: 1.5rem;
+}
+
+.inputAdornment {
+  padding-bottom: 1rem;
+}
+
+.cardTopicsSection {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.188rem;
+}
+
+.cardTopic {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.inputHint {
+  color: rgba(0, 0, 0, 0.6);
+}

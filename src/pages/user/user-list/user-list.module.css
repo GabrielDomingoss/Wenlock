@@ -1,0 +1,57 @@
+.userListTitle {
+  font-weight: bold;
+  font-size: 2.375rem;
+  color: #0d1931;
+  margin-bottom: 0.625rem;
+}
+
+.userListFilter {
+  width: 17.813rem;
+  height: 3.5rem;
+  background-color: white;
+  outline: none !important;
+  border-radius: 0.5rem;
+  border: none !important;
+}
+
+.userListFilter fieldset {
+  box-shadow: 0px 3px 5px #00000029;
+  border: 1px solid #86868645;
+}
+
+.createUserButton {
+  width: 13.938rem;
+  height: 3.5rem;
+  text-transform: none !important;
+  gap: 0.313rem;
+  padding: 1rem 1.125rem;
+  background-color: #0290a4;
+  border-radius: 0.5rem;
+  box-shadow: none;
+}
+
+.userCard {
+  margin-bottom: 0.75rem;
+}
+
+.noResultsSection {
+  padding-top: 23.813rem;
+  padding-bottom: 20.125rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.noResultsMessage {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #0b2b25;
+  margin-bottom: 0.313rem;
+}
+
+.noResultsHint {
+  font-size: 1.125rem;
+  color: #0b2b25;
+  margin-bottom: 0.313rem;
+}

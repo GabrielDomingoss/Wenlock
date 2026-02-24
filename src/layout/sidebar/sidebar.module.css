@@ -1,0 +1,148 @@
+.sidebar {
+  background-color: #0d1931;
+  width: 21rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.718rem;
+  padding-left: 0.875rem;
+  padding-right: 1.063rem;
+  padding-bottom: 2.418rem;
+  position: relative;
+  overflow: visible;
+}
+
+.expanded {
+  width: 21rem;
+  transition: width 0.3s ease;
+}
+
+.collapsed {
+  width: 7.25rem;
+  transition: width 0.3s ease;
+}
+
+.iconOnly {
+  justify-content: center;
+}
+
+.collapsed .listItemButton {
+  justify-content: center;
+  width: 3.75rem;
+  height: 3.375rem;
+  margin: 0 auto;
+  padding: 0 !important;
+}
+
+.toggleButton {
+  position: absolute;
+  top: 2.75rem;
+  width: 2.313rem;
+  height: 2.313rem;
+  background: #f2f2f2;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #0d1931;
+  right: -0.875rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.toggleIcon {
+  width: 1.125rem;
+}
+
+.brand {
+  width: 14.625rem;
+  height: 2.25rem;
+  margin-bottom: 2.883rem;
+  padding-left: 1.583rem;
+}
+
+.brandCollapsed {
+  width: 4.438rem;
+  height: 3.5rem;
+  margin-bottom: 1.726rem;
+  display: flex;
+  align-self: center;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+}
+
+.listItemButton {
+  border-radius: 0.5rem !important;
+  gap: 0.635rem;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.icon {
+  width: 1.5rem;
+}
+
+.listItemDropdown span {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listItemChild {
+  padding-left: 3.5rem !important;
+}
+
+.collapsed .listItemChild {
+  padding-left: 0 !important;
+}
+
+.listItemButton div,
+.listItemButton.active:hover div,
+.listItemButton.active:hover span {
+  color: white;
+}
+
+.listItemButton div {
+  min-width: 0 !important;
+}
+
+.listItemButton:hover {
+  background-color: #00606d !important;
+}
+
+.listItemButton.active {
+  background-color: #00aac1;
+}
+
+.listItemButton.active span,
+.listItemButton.active div {
+  font-weight: bold;
+  color: #0d1931;
+}
+
+.copyright {
+  margin-top: auto;
+  display: flex;
+  padding-left: 1.583rem;
+}
+
+.collapsed .copyright {
+  padding-left: 0;
+  justify-content: center;
+  white-space: nowrap;
+  font-size: 0.75rem;
+}
+
+.listItemButton {
+  padding: 0.5rem 0.75rem !important;
+}
+
+.listItemIcon {
+  min-width: 0 !important;
+  display: flex;
+  justify-content: center;
+}
