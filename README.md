@@ -2,7 +2,7 @@
 
 ## 📖 Sobre o Projeto
 
-Aplicação contem:
+A aplicação contém:
 
 - Listagem de usuários com paginação
 - Busca com debounce
