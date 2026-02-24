@@ -22,6 +22,7 @@ A aplicação contém:
 - Material UI (MUI)
 - Axios
 - React Router DOM
+- JSON Server
 
 ---
 
